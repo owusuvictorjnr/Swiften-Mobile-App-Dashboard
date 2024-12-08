@@ -1,4 +1,4 @@
-import Headers from "@/components/Navbar";
+// import Headers from "@/components/Navbar";
 
 export default function FrontendLayout({
   children,
@@ -7,7 +7,7 @@ export default function FrontendLayout({
 }>) {
   return (
     <div className="">
-      <Headers />
+      {/* <Headers /> */}
       <main>{children}</main>
     </div>
   );
