@@ -32,7 +32,9 @@ const DashboardPage = () => {
   }, []);
   return (
     <div className="flex flex-col justify-center w-full text-center px-10 space-y-5 lg:space-y-0 mb-5">
-      <h1 className="text-2xl font-bold mb-6 mt-10">Dashboard Overview</h1>
+      <h1 className="text-2xl font-bold mb-6 mt-10 text-black">
+        Dashboard Overview
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 w-full lg:grid-cols-3 gap-4 space-y-10 lg:space-y-0">
         {Object.entries(stats).map(([key, value]) => (
           <div
