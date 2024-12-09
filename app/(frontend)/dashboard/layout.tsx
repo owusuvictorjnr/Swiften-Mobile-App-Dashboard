@@ -6,9 +6,9 @@ export default function DashboardLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="">
+    <div className="bg-white flex">
       <Headers />
-      <main>{children}</main>
+      <main className="flex justify-center w-full px-10">{children}</main>
     </div>
   );
 }
